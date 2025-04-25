@@ -16,7 +16,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Set LED color and animations</summary>
-        <description>Allows control of the FireTV Cube LED color & animations.</description>
+        <description>Allows control of the FireTV Cube LED color and animations.</description>
         <platform>all</platform>
         <assets>
             <icon>resources/icon.png</icon>
