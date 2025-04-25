@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="LED Color Settings">
+        <setting type="lsep" />
+        <setting id="enable_led_controller" type="bool" label="Enable LED Controller" default="false" />
+        <setting id="color_name" type="labelenum" values="hex color code|white|red|orange|yellow|light green|green|cyan|light blue|blue|dark blue|indigo|purple|magenta" default="dark blue" label="LED Color" enable="eq(-1,true)" />
+        <setting id="color" type="text" label="Hex Color Code" default="#FF00FF" visible="eq(-1,0)" enable="eq(-2,true)" />
+        <setting id="brightness" type="slider" label="Brightness" default="50" min="0" max="255" enable="eq(-3,true)" />
+        <setting type="lsep" />
+        <setting id="enable_animation" type="bool" label="LED Animation" default="false" enable="eq(-5,true)"/>
+        <setting id="animation" type="file" label="Select Animation" default="/storage/.kodi/addons/service.firecube_lightbar/resources/animations/" enable="eq(-1,true)+eq(-6,true)" />
+    </category>
+</settings>
